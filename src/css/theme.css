@@ -1,0 +1,73 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff69b4; /* Hot pink for kawaii theme */
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ff69b4;
+}
+
+.banner {
+    background-image: url('../assets/images/kawaii-banner.png');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+}
+
+.button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff1493; /* Deeper pink on hover */
+}
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ff69b4;
+}
+
+.kawaii-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.promotion {
+    background-color: #ffe4e1; /* Misty rose for promotions */
+    border: 1px solid #ff69b4;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}

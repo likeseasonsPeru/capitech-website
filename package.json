@@ -1,0 +1,27 @@
+{
+  "name": "capitech-website",
+  "version": "1.0.0",
+  "description": "Capitech offers technical services for iPhones, iPads, MacBooks, and iMacs with a kawaii theme.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "capitech",
+    "technical services",
+    "kawaii",
+    "iPhone",
+    "iPad",
+    "MacBook",
+    "iMac"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
